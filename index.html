@@ -1,0 +1,242 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Golub</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&display=swap" rel="stylesheet">
+        <script type="text/javascript">
+            (function() {
+                var css = document.createElement('link');
+                css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+                css.rel = 'stylesheet';
+                css.type = 'text/css';
+                document.getElementsByTagName('head')[0].appendChild(css);
+            })();
+        </script>
+    </head>
+    <body id="body">
+        <div id="wrapper">
+            <header id="header">
+                <div id="slideMenu">
+                    <ul>
+                        <li><a href="#">Početna</a></li>
+                        <li><a href="#oNama">O nama</a></li>
+                        <li><a href="#nasaPreporuka">Naša preporuka</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                        <li><a href="#">Rezervacije</a></li>
+                        <li><i class="fas fa-chevron-up slideUp"></i></li>
+                    </ul>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">POČETNA</a></li>
+                        <li><a href="#oNama">O NAMA</a></li>
+                        <li><a href="#nasaPreporuka">NAŠA PREPORUKA</a></li>
+                        <li><a href="#kontakt">KONTAKT</a></li>
+                        <li><a href="#">REZERVACIJE</a></li>
+                    </ul>
+                </nav>
+                <nav class="disposable">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i>Zlatibor, Rudine</a></li>
+                        <li><a href="#"><i class="fas fa-at"></i>info@apartmangolub.com</a></li>
+                        <li><a href="#"><i class="fas fa-phone"></i>+381628138720</a></li>
+                    </ul>
+                </nav>
+                <div id="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </header>
+            <main>
+                <div id="welcomeDiv">
+                    <img id="logo" src="assets/images/ApartmanGolubWhite.png" alt="">
+                    <p>Nalazi se na samo <b>4km</b> od centra <b>Zlatibora</b>. Pravo mesto za uživanje i opuštanje sa porodicom.</p>
+                    <div class="btnRow">
+                        <button>Uključi navigaciju</button>
+                        <button>Rezerviši smeštaj</button>
+                    </div>
+                </div>
+                <section id="oNama">
+                    <div>
+                        <img src="assets/images/elpaso.jpg" alt="">
+                    </div>
+                    <div>
+                        <h1>O nama</h1>
+                        <h2>Apartman GOLUB - Zlatibor</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </section>
+                <section class="noBcg" id="brojke">
+                    <div>
+                        <p class="broj">4</p>
+                        <p class="tekst">Kilometara udaljenosti od centra Zlatibora</p>
+                    </div>
+                    <div>
+                        <p class="broj">19.5</p>
+                        <p class="tekst">Kilometara udaljenosti od vodopada Gostilje</p>
+                    </div>
+                    <div>
+                        <p class="broj">14.8</p>
+                        <p class="tekst">Kilometara udaljenosti od Stopića pećine</p>
+                    </div>
+                    <div>
+                        <p class="broj">12.5</p>
+                        <p class="tekst">Kilometara udaljenosti od El Paso City-ja</p>
+                    </div>
+                </section>
+                <section id="nasaPreporuka">
+                    <h1>Atrakcije Zlatibora</h1>
+                    <h2>Naša preporuka</h2>
+                    <p>Izaberite mesto koje želite da posetite i putem našeg sajta pokrenite navigaciju koja će Vas odvesti do odredišta.</p>
+                    
+                    <div id="carousel">
+                        <div class="carouselInner">
+                            <div class="carouselItem">
+                                <img src="assets/images/pecina.jpg" alt="">
+                                <div class="sliderItemInfo">
+                                    <p><i class="fas fa-map-marker-alt"></i>Apartman - ${x.name}</p>
+                                    <div>
+                                        <p>Potrebno vreme: ${x.time} min.</p>
+                                        <button>Navigacija</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carouselItem">
+                                <img src="assets/images/pecina.jpg" alt="">
+                                <div class="sliderItemInfo">
+                                    <p><i class="fas fa-map-marker-alt"></i>Apartman - ${x.name}</p>
+                                    <div>
+                                        <p>Potrebno vreme: ${x.time} min.</p>
+                                        <button>Navigacija</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carouselItem">
+                                <img src="assets/images/pecina.jpg" alt="">
+                                <div class="sliderItemInfo">
+                                    <p><i class="fas fa-map-marker-alt"></i>Apartman - ${x.name}</p>
+                                    <div>
+                                        <p>Potrebno vreme: ${x.time} min.</p>
+                                        <button>Navigacija</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h1>Utisci gostiju</h1>
+                    <h2>Šta drugi misle o nama?</h2>
+                    <p>Mišljenja gostoju su nam svima važna i zbog toga ih sva uvažavamo i težimo tome da Vam omogućimo što prijatniji boravak u apartmanu.</p>
+                    <div id="reviews" class="slider">
+                        <div class="sliderItem review">
+                            <p><i class="fas fa-quote-left"></i><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin ac orci phasellus egestas.</em><i class="fas fa-quote-right"></i></p>
+                            <div class="reviewerInfo">
+                                <div>
+                                    <img src="https://via.placeholder.com/40.png" alt="">
+                                </div>
+                                <div>
+                                    <p>John Doe</p>
+                                    <p>Mladenovac</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliderItem review">
+                            <p><i class="fas fa-quote-left"></i><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin ac orci phasellus egestas.</em><i class="fas fa-quote-right"></i></p>
+                            <div class="reviewerInfo">
+                                <div>
+                                    <img src="https://via.placeholder.com/40.png" alt="">
+                                </div>
+                                <div>
+                                    <p>John Doe</p>
+                                    <p>Mladenovac</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliderItem review">
+                            <p><i class="fas fa-quote-left"></i><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin ac orci phasellus egestas.</em><i class="fas fa-quote-right"></i></p>
+                            <div class="reviewerInfo">
+                                <div>
+                                    <img src="https://via.placeholder.com/40.png" alt="">
+                                </div>
+                                <div>
+                                    <p>John Doe</p>
+                                    <p>Mladenovac</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="noBcg" id="kontakt">
+                    <h1>Kontakt forma</h1>
+                    <h2>Imate pitanje za nas?</h2>
+                    <p>Voljni smo i jedva čekamo da porazgovaramo sa Vama! Možete nas kontaktirati putem kontakt forme, društvenih mreža, ili mobilnog telefona.</p>
+                </section>
+                <section id="contactSection">
+                    <form action="#" id="contactForm">
+                        <div>
+                            <input type="text" name="" id="" placeholder="Ime" required>
+                            <input type="text" name="" id="" placeholder="Prezime" required>
+                        </div>
+                        <div>
+                            <input type="email" name="" id="" placeholder="E-mail" required>
+                            <input type="text" name="" id="" placeholder="Broj telefona" required>
+                        </div>
+                        <textarea name="" id="contactMessage" placeholder="Željena poruka" required></textarea>
+                        <button>Pošalji</button>
+                    </form>
+                </section>
+            </main>
+            <footer>
+                <div class="top">
+                    <div class="footerCol">
+                        <img src="assets/images/ApartmanGolubWhite.png" alt="">
+                        <p>Apartman GOLUB - Zlatibor, savršeno mesto za odmor Vas i Vaše porodice!</p>
+                    </div>
+                    <div class="footerCol">
+                        <h3>NAVIGACIJA</h3>
+                        <ul>
+                            <li><a href="#">Početna</a></li>
+                            <li><a href="#">O nama</a></li>
+                            <li><a href="#">Naša preporuka</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                            <li><a href="#">Rezervacije</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerCol">
+                        <h3>PREPORUČENA MESTA</h3>
+                        <ul>
+                            <li><a href="#">Vodopad Gostilje</a></li>
+                            <li><a href="#">Stopića pećina</a></li>
+                            <li><a href="#">El Paso City</a></li>
+                            <li><a href="#">Ski centar Tornik</a></li>
+                            <li><a href="#">Vidikovac Gradina</a></li>
+                        </ul>
+                    </div> 
+                    <div class="footerCol">
+                        <h3>KONTAKT PODACI</h3>
+                        <ul>
+                            <li>Instagram:</li>
+                            <li>Facebook:</li>
+                            <li>E-mail:</li>
+                            <li>Telefon:</li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="bottom">
+                    <p>Copyright &copy;2020 Sva prava zadržana | Apartman Golub</p>
+                    <p>Kodirao: CatmanLab / Dizajn: Golub</p>
+                </div>
+                
+            </footer>
+        </div>
+        <!-- Without Polyfills -->
+        <script src="assets/js/dist/smooth-scroll.min.js"></script>
+        <!-- Without Polyfills -->
+        <script src="assets/js/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

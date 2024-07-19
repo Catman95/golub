@@ -1,0 +1,18 @@
+[
+	{
+		"image": "pecina",
+		"name": "Stopića pećina",
+		"time": 35
+    },
+    {
+		"image": "elpaso",
+		"name": "El Paso City",
+		"time": 35
+    },
+    {
+		"image": "vodopad",
+		"name": "Vodopad Gostilje",
+		"time": 35
+	}
+
+]
